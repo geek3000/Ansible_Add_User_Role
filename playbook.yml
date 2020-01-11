@@ -1,0 +1,9 @@
+---
+- hosts: desktop
+  name: Add user role
+  remote_user: geek
+  become: true
+
+
+  roles:
+    - add_new_user

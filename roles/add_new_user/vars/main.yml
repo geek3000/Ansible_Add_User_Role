@@ -1,0 +1,6 @@
+---
+# vars file for install-update-packages
+packages:
+  - httpd
+  - git
+  - nano

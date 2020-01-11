@@ -1,0 +1,12 @@
+---
+# tasks file for create user
+- name: create user jongeek
+  user:
+    name: jongeek
+    shell: /bin/bash
+    state: present
+    group: root
+    password: '$6$zRbpHzlSfVAqe2c$KzEX.mTTJXpIggGOvZGv2AH3/lhZj7zFaZZb9wSPqUHj7a.VHuIwkEnZNBuo7wK/zMAVB9L6Kln1c2PSEcLI41'
+    createhome: yes
+    home: /home/jongeek
+    
